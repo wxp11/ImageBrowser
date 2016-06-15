@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4B19FA11D0A275900F8D55D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B19FA01D0A275900F8D55D /* main.m */; };
+		F4B19FA41D0A275900F8D55D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B19FA31D0A275900F8D55D /* AppDelegate.m */; };
+		F4B19FA61D0A275900F8D55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FA51D0A275900F8D55D /* Assets.xcassets */; };
+		F4B19FA91D0A275900F8D55D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FA71D0A275900F8D55D /* LaunchScreen.storyboard */; };
+		F4B19FB21D0A27B500F8D55D /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B19FB11D0A27B500F8D55D /* ListViewController.m */; };
+		F4B19FB51D0A27C000F8D55D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B19FB41D0A27C000F8D55D /* DetailViewController.m */; };
+		F4B19FC81D0A288C00F8D55D /* 风景01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FB71D0A288C00F8D55D /* 风景01.jpg */; };
+		F4B19FC91D0A288C00F8D55D /* 风景02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FB81D0A288C00F8D55D /* 风景02.jpg */; };
+		F4B19FCA1D0A288C00F8D55D /* 风景03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FB91D0A288C00F8D55D /* 风景03.jpg */; };
+		F4B19FCB1D0A288C00F8D55D /* 风景04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FBA1D0A288C00F8D55D /* 风景04.jpg */; };
+		F4B19FCC1D0A288C00F8D55D /* 风景05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FBB1D0A288C00F8D55D /* 风景05.jpg */; };
+		F4B19FCD1D0A288C00F8D55D /* 风景06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FBC1D0A288C00F8D55D /* 风景06.jpg */; };
+		F4B19FCE1D0A288C00F8D55D /* 风景07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FBD1D0A288C00F8D55D /* 风景07.jpg */; };
+		F4B19FCF1D0A288C00F8D55D /* 风景08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FBE1D0A288C00F8D55D /* 风景08.jpg */; };
+		F4B19FD01D0A288C00F8D55D /* 风景09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FBF1D0A288C00F8D55D /* 风景09.jpg */; };
+		F4B19FD11D0A288C00F8D55D /* 风景10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FC01D0A288C00F8D55D /* 风景10.jpg */; };
+		F4B19FD21D0A288C00F8D55D /* 风景11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FC11D0A288C00F8D55D /* 风景11.jpg */; };
+		F4B19FD31D0A288C00F8D55D /* 风景12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FC21D0A288C00F8D55D /* 风景12.jpg */; };
+		F4B19FDC1D0A2FB200F8D55D /* 风景13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FD91D0A2FB200F8D55D /* 风景13.jpg */; };
+		F4B19FDD1D0A2FB200F8D55D /* 风景14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FDA1D0A2FB200F8D55D /* 风景14.jpg */; };
+		F4B19FDE1D0A2FB200F8D55D /* 风景15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B19FDB1D0A2FB200F8D55D /* 风景15.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4B19F9C1D0A275900F8D55D /* 图片浏览器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片浏览器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B19FA01D0A275900F8D55D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4B19FA21D0A275900F8D55D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4B19FA31D0A275900F8D55D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4B19FA51D0A275900F8D55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4B19FA81D0A275900F8D55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4B19FAA1D0A275900F8D55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B19FB01D0A27B500F8D55D /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		F4B19FB11D0A27B500F8D55D /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		F4B19FB31D0A27C000F8D55D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F4B19FB41D0A27C000F8D55D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F4B19FB71D0A288C00F8D55D /* 风景01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景01.jpg"; sourceTree = "<group>"; };
+		F4B19FB81D0A288C00F8D55D /* 风景02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景02.jpg"; sourceTree = "<group>"; };
+		F4B19FB91D0A288C00F8D55D /* 风景03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景03.jpg"; sourceTree = "<group>"; };
+		F4B19FBA1D0A288C00F8D55D /* 风景04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景04.jpg"; sourceTree = "<group>"; };
+		F4B19FBB1D0A288C00F8D55D /* 风景05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景05.jpg"; sourceTree = "<group>"; };
+		F4B19FBC1D0A288C00F8D55D /* 风景06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景06.jpg"; sourceTree = "<group>"; };
+		F4B19FBD1D0A288C00F8D55D /* 风景07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景07.jpg"; sourceTree = "<group>"; };
+		F4B19FBE1D0A288C00F8D55D /* 风景08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景08.jpg"; sourceTree = "<group>"; };
+		F4B19FBF1D0A288C00F8D55D /* 风景09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景09.jpg"; sourceTree = "<group>"; };
+		F4B19FC01D0A288C00F8D55D /* 风景10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景10.jpg"; sourceTree = "<group>"; };
+		F4B19FC11D0A288C00F8D55D /* 风景11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景11.jpg"; sourceTree = "<group>"; };
+		F4B19FC21D0A288C00F8D55D /* 风景12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景12.jpg"; sourceTree = "<group>"; };
+		F4B19FD91D0A2FB200F8D55D /* 风景13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景13.jpg"; sourceTree = "<group>"; };
+		F4B19FDA1D0A2FB200F8D55D /* 风景14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景14.jpg"; sourceTree = "<group>"; };
+		F4B19FDB1D0A2FB200F8D55D /* 风景15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "风景15.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B19F991D0A275900F8D55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B19F931D0A275900F8D55D = {
+			isa = PBXGroup;
+			children = (
+				F4B19F9E1D0A275900F8D55D /* 图片浏览器 */,
+				F4B19F9D1D0A275900F8D55D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B19F9D1D0A275900F8D55D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B19F9C1D0A275900F8D55D /* 图片浏览器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B19F9E1D0A275900F8D55D /* 图片浏览器 */ = {
+			isa = PBXGroup;
+			children = (
+				F4B19FB61D0A288C00F8D55D /* 风景图片 */,
+				F4B19FA21D0A275900F8D55D /* AppDelegate.h */,
+				F4B19FA31D0A275900F8D55D /* AppDelegate.m */,
+				F4B19FB01D0A27B500F8D55D /* ListViewController.h */,
+				F4B19FB11D0A27B500F8D55D /* ListViewController.m */,
+				F4B19FB31D0A27C000F8D55D /* DetailViewController.h */,
+				F4B19FB41D0A27C000F8D55D /* DetailViewController.m */,
+				F4B19FA51D0A275900F8D55D /* Assets.xcassets */,
+				F4B19FA71D0A275900F8D55D /* LaunchScreen.storyboard */,
+				F4B19FAA1D0A275900F8D55D /* Info.plist */,
+				F4B19F9F1D0A275900F8D55D /* Supporting Files */,
+			);
+			path = "图片浏览器";
+			sourceTree = "<group>";
+		};
+		F4B19F9F1D0A275900F8D55D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4B19FA01D0A275900F8D55D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4B19FB61D0A288C00F8D55D /* 风景图片 */ = {
+			isa = PBXGroup;
+			children = (
+				F4B19FB71D0A288C00F8D55D /* 风景01.jpg */,
+				F4B19FB81D0A288C00F8D55D /* 风景02.jpg */,
+				F4B19FB91D0A288C00F8D55D /* 风景03.jpg */,
+				F4B19FBA1D0A288C00F8D55D /* 风景04.jpg */,
+				F4B19FBB1D0A288C00F8D55D /* 风景05.jpg */,
+				F4B19FBC1D0A288C00F8D55D /* 风景06.jpg */,
+				F4B19FBD1D0A288C00F8D55D /* 风景07.jpg */,
+				F4B19FBE1D0A288C00F8D55D /* 风景08.jpg */,
+				F4B19FBF1D0A288C00F8D55D /* 风景09.jpg */,
+				F4B19FC01D0A288C00F8D55D /* 风景10.jpg */,
+				F4B19FC11D0A288C00F8D55D /* 风景11.jpg */,
+				F4B19FC21D0A288C00F8D55D /* 风景12.jpg */,
+				F4B19FD91D0A2FB200F8D55D /* 风景13.jpg */,
+				F4B19FDA1D0A2FB200F8D55D /* 风景14.jpg */,
+				F4B19FDB1D0A2FB200F8D55D /* 风景15.jpg */,
+			);
+			path = "风景图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4B19F9B1D0A275900F8D55D /* 图片浏览器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B19FAD1D0A275900F8D55D /* Build configuration list for PBXNativeTarget "图片浏览器" */;
+			buildPhases = (
+				F4B19F981D0A275900F8D55D /* Sources */,
+				F4B19F991D0A275900F8D55D /* Frameworks */,
+				F4B19F9A1D0A275900F8D55D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图片浏览器";
+			productName = "图片浏览器";
+			productReference = F4B19F9C1D0A275900F8D55D /* 图片浏览器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B19F941D0A275900F8D55D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WangXiaopeng;
+				TargetAttributes = {
+					F4B19F9B1D0A275900F8D55D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F4B19F971D0A275900F8D55D /* Build configuration list for PBXProject "图片浏览器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4B19F931D0A275900F8D55D;
+			productRefGroup = F4B19F9D1D0A275900F8D55D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B19F9B1D0A275900F8D55D /* 图片浏览器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B19F9A1D0A275900F8D55D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B19FA61D0A275900F8D55D /* Assets.xcassets in Resources */,
+				F4B19FA91D0A275900F8D55D /* LaunchScreen.storyboard in Resources */,
+				F4B19FCD1D0A288C00F8D55D /* 风景06.jpg in Resources */,
+				F4B19FCB1D0A288C00F8D55D /* 风景04.jpg in Resources */,
+				F4B19FCF1D0A288C00F8D55D /* 风景08.jpg in Resources */,
+				F4B19FD11D0A288C00F8D55D /* 风景10.jpg in Resources */,
+				F4B19FD01D0A288C00F8D55D /* 风景09.jpg in Resources */,
+				F4B19FD31D0A288C00F8D55D /* 风景12.jpg in Resources */,
+				F4B19FC91D0A288C00F8D55D /* 风景02.jpg in Resources */,
+				F4B19FDE1D0A2FB200F8D55D /* 风景15.jpg in Resources */,
+				F4B19FDD1D0A2FB200F8D55D /* 风景14.jpg in Resources */,
+				F4B19FD21D0A288C00F8D55D /* 风景11.jpg in Resources */,
+				F4B19FC81D0A288C00F8D55D /* 风景01.jpg in Resources */,
+				F4B19FCA1D0A288C00F8D55D /* 风景03.jpg in Resources */,
+				F4B19FCC1D0A288C00F8D55D /* 风景05.jpg in Resources */,
+				F4B19FCE1D0A288C00F8D55D /* 风景07.jpg in Resources */,
+				F4B19FDC1D0A2FB200F8D55D /* 风景13.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B19F981D0A275900F8D55D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B19FA41D0A275900F8D55D /* AppDelegate.m in Sources */,
+				F4B19FA11D0A275900F8D55D /* main.m in Sources */,
+				F4B19FB21D0A27B500F8D55D /* ListViewController.m in Sources */,
+				F4B19FB51D0A27C000F8D55D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4B19FA71D0A275900F8D55D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B19FA81D0A275900F8D55D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4B19FAB1D0A275900F8D55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4B19FAC1D0A275900F8D55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4B19FAE1D0A275900F8D55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "图片浏览器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.roc.ios.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4B19FAF1D0A275900F8D55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "图片浏览器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.roc.ios.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B19F971D0A275900F8D55D /* Build configuration list for PBXProject "图片浏览器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B19FAB1D0A275900F8D55D /* Debug */,
+				F4B19FAC1D0A275900F8D55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B19FAD1D0A275900F8D55D /* Build configuration list for PBXNativeTarget "图片浏览器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B19FAE1D0A275900F8D55D /* Debug */,
+				F4B19FAF1D0A275900F8D55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4B19F941D0A275900F8D55D /* Project object */;
+}
